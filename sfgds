@@ -1,0 +1,301 @@
+private ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueueprivate ConcurrentQueue<DownloadFileItem> _readQueue = new();
+private ConcurrentQueue<DownloadFileItem> _writeQueue = new();
+
+// 定时交换队列（每1秒）
+private void SwapQueues()
+{
+    lock (_syncLock)
+    {
+        var temp = _readQueue;
+        _readQueue = _writeQueue;
+        _writeQueue = temp;
+    }
+}
+
+// 生产者写入_writeQueue
+// 消费者读取_readQueue
